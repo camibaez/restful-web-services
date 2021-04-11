@@ -5,7 +5,7 @@ import java.util.Date;
 public class User {
 	private Integer id;
 	private String name;
-	private Date birthdDate;
+	private Date birthDate;
 	
 	
 	
@@ -13,7 +13,7 @@ public class User {
 		super();
 		this.id = id;
 		this.name = name;
-		this.birthdDate = birthdDate;
+		this.birthDate = birthdDate;
 	}
 	public Integer getId() {
 		return id;
@@ -27,15 +27,15 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Date getBirthdDate() {
-		return birthdDate;
+	public Date getBirthDate() {
+		return birthDate;
 	}
-	public void setBirthdDate(Date birthdDate) {
-		this.birthdDate = birthdDate;
+	public void setBirthDate(Date birthdDate) {
+		this.birthDate = birthdDate;
 	}
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", birthdDate=" + birthdDate + "]";
+		return "User [id=" + id + ", name=" + name + ", birthdDate=" + birthDate + "]";
 	}
 	
 	
